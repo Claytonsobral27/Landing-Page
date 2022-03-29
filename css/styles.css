@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
@@ -33,7 +35,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
+  --bs-primary: #0445f7;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -87,6 +89,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto', sans-serif
 }
 
 hr {
@@ -236,11 +239,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #27b7fa;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #27b7fa;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11506,4 +11509,15 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+#mainNav{ 
+background-color: #6610f2;
+
+}
+
+#about {
+
+  background-color: #6610f2;
+
 }
